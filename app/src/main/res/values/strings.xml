@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GradeDistributions_pizzmj</string>
+    <string name="tv1">Total No. of Students</string>
+    <string name="tv2">A Students</string>
+    <string name="tv3">B Students</string>
+    <string name="tv4">C Students</string>
+    <string name="tv5">D Students</string>
+    <string name="tv6">F Students</string>
+    <string name="btn_text">COMPUTE</string>
+    <string name="dialogYes">OK</string>
+    <string name="dialogNo">Cancel</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/layout">
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv1" />
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv2"/>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv3"/>
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv4"/>
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv5"/>
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv6"/>
+        <EditText
+            android:id="@+id/et6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn_compute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_text"
+            android:onClick="compute"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/bar_graph"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</ViewFlipper>
